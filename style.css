@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0 auto;
+	font-family: helvetica, sans-serif;/*font name*/ 
+	font size: 16em;
+	color: #414042;
+	font-weight: bold;
+}
+
+/* Header area */
+
+#header {
+	height: 90px;
+	margin: auto;
+	position: fixed;
+	z-index:2;
+	top:0;
+	width: 100%;
+	padding-top: 0px;
+	background-color: #F4F4F4;
+
+}
+
+#header img {
+	width:167px;
+	height:80px;
+	margin: 5px 260px 10px 10px;
+	float: left;
+}
+
+#header ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+#header li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	padding: 30px 90px 10px 100px;
+	color: #414042;
+	text-decoration: none;
+
+
+}
+
+.active{
+	border-top: 8px solid #A3DED8;
+	
+}
+
+nav ul li:hover {
+	border-top: 8px solid #A3DED8;
+}
+
+
+
+/*Info and Header*/
+
+.info{
+	margin: auto;
+	text-align: center;
+	padding-top:120px;
+	text-decoration: none;
+	width: 100%;
+}
+
+/*make this 50% at <1280 and >1280 %70*/
+.info h2{
+	padding-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+}
+
+h1{
+	font-size: 48px;
+	margin: 0px;
+	/*SET LATER font-weight:; */
+	color: #414042;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 16px;
+	margin: 0px;
+	font-weight: normal;
+	color: #414042;
+}
+
+h3{
+	font-size: 16px;
+	margin-left:auto;
+	margin-right: auto;
+	color: #414042;
+	text-decoration: none;
+	font-weight: none;
+
+
+}
+
+
+/* Thumbnail tiles */
+
+#project-thumb-wrap {
+	margin: auto;
+	max-width: 1118px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	text-align: left;
+	
+}
+
+.project-thumb {
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+	width: 370px;
+	height: 275px;
+	background-color: #00B9BD;
+
+}
+
+/*.project-thumb img{
+	width: 370px;
+	height: 275px;
+	position: absolute;
+} */
+
+.project-title {
+	margin-top: 106px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+
+/*About*/
+#me img{
+	width:50%;
+	float: center;
+}
+
+.about-info {
+	margin: auto;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+
+.about-info h2{
+	padding-top: 30px;
+	padding-left: 20px;
+	max-width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
