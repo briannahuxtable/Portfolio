@@ -13,11 +13,9 @@ body {
 
 #header {
 	height: 90px;
-	/*padding-top: 0px; --*/
 	margin: auto;
 	float: left;
 	text-align: right;
-	/*overflow: auto; --*/
 	background-color: #F4F4F4;
 	position: fixed;
 	z-index:2;
@@ -29,7 +27,7 @@ body {
 #header img {
 	width:167px;
 	height:80px;
-	margin: 5px 260px 10px 10px;
+	margin: 5px auto; 
 	float: left;
 	border: none;
 }
@@ -42,9 +40,6 @@ body {
 }
 
 #header li{
-	/*display: block;
-	width: 25%;--
-	padding: 30px 90px 10px 100px;--*/
 	color: #414042;
 	text-align: center;
 	display: inline-block;
@@ -104,8 +99,7 @@ h2{
 
 h3{
 	font-size: 21px;
-	margin-left:auto;
-	margin-right: auto;
+	margin:5px auto;
 	color: #414042;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
@@ -113,25 +107,30 @@ h3{
 }
 
 h4{
-	margin-left:auto;
-	margin-right: auto;
+	margin:auto;
 	color: #414042;
+	padding-bottom: 40px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400
 }
 
+h5{
+	font-weight: 400;
+	font-size: 21px;
+	margin: 0px auto;
+}
 
 /* Thumbnail tiles */
 
 #project-thumb-wrap {
 	margin: auto;
-	max-width: 975px;
+	width:80%;
+	max-width: 1250px;
 	padding-top: 30px;
 	padding-bottom: 20px;
 	clear: both;
-	text-align: left;
-	;
+	text-align:center;
 	
 }
 
@@ -139,12 +138,33 @@ h4{
 	display: inline-block;
 	margin: 0px;
 	position: relative;
-	width: 300px;
-	height: 220px;
+	width:45%;
+	max-width: 599px;
 	position: relative;
 	margin: 30px 11px 0px 11px; 
 	/*background-color: #00B9BD;*/
 
+}
+
+.text{
+	font-size: 21px;
+	font-weight: 600;
+	color: #414042;
+
+}
+
+.text li{
+	color:#999999;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.project-thumb img, .project-thumb a{
+	width:100%;
 }
 
 
@@ -174,63 +194,55 @@ h4{
 
 /*Role-Team-Tools*/
 
-.role-desc ul.overview {
-	width: 100%;
-	position: relative;
-	float: left;
-	margin: 0px;
-	padding-top: 60px;
-	display: block;
+.desc {
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+  font-weight: 400;
+  margin-left: auto;
 
-	
-}
-
-.role-desc ul.overview li {
-	width: 33%;
-	float: left;
-	text-align: center;
-	list-style: none;
-	display: list-item;
 
 }
 
-.role-desc ul.overview li em {
-	width: 100%;
-	display: inline-block;
-	font-size: 1.28571em;
+.desc ul,li{
+	margin: 0;
+	padding: 0;
 	color: #999999;
-	font-family: 'Open Sans', sans-serif;
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;
 
 }
 
-.role-desc ul.overview li span {
-	width: 100%;
-	display: inline-block;
-	font-size: 1em;
-	color: #1b1b1b;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	padding-bottom:20px;
+.desc .list {
+	position: relative;
+	width: 30%;
 
 }
 
-.role-desc p {
+.list {
 
+	padding-left: 25px;
+	float: left;
 }
 
-/*Individual projects*/
+
+/*Individual projects pages*/
 
 
 .project-info h2{
-	padding-top: 120px;
+	padding-top: 75px;
+	padding-bottom: 25px;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1000px;
+	padding-left: 25px;
+	padding-right: 15px;
+	text-align: left;
 }
 
 .project-info h1{
-	padding-top:120px;
+	padding-top: 5px;
 	text-align: center;
 	padding-bottom: -5px;
 }
@@ -238,4 +250,58 @@ h4{
 .project-info h4{
 	font-size: 16px;
 	text-align: center;
+}
+
+.project-info{
+	text-align: center;
+}
+
+.project-img img{
+	margin:auto;
+	padding-top: 120px;
+	max-width: 100%;
+
+}
+
+.img-showcase img{
+	width: 100%; /*use max-width:100%; for everything*/
+	max-width: 800px;
+	max-height: 500px;
+	text-align: center;
+
+}
+
+
+.bottom, .bottom-links{
+	width: 100%;
+	text-decoration: none;
+	margin: 5px auto;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.footer-left {
+	float: left;
+	margin: 2em 0 0;
+	padding-left: 20px;
+
+}
+
+.footer-right {
+	float: right;
+	margin: 2em 0 0;
+	padding-right: 20px;
+}
+
+.footer-right a, .footer-left a{
+	font-weight: 600;
+	color: #414042;
+}
+.footer-right span, .footer-left span{
+	font-weight: 400;
+	color: #999999;
+}
+
+.footer-right:hover, .footer-left:hover{
+	opacity: .5;
 }
