@@ -2,13 +2,12 @@
 /* CSS Document */
 
 @media (max-width: 979px) {
-
+/*
 .project-thumb-wrap {
 	max-width: 730px;
 }
 
 .project-thumb {
-	/*margin: 40px 8px 70px 40px;*/
 	margin: 40px 8px 20px 8px;
 	width: 225px;
 	height: 165px;
@@ -19,7 +18,7 @@
 	height: 165px
 }
 
-
+*/
 #info{
 	max-width: 730px;
 }
@@ -30,27 +29,24 @@
 
 @media (max-width: 767px) {
 
-.project-thumb-wrap{
-	max-width: 485px;
-}
+
 
 #me {
 	padding: 10px;
 }
 
 .project-thumb{
-	margin: 0px 0px 0px 0px;
-	width: 225px;
-	height: 165px;
+	width:100%;
+	margin:30px 0 0 0;
 }
 
 .info h2{
 	padding: 10px;
 }
 
-.project-thumb img {
-	width: 225px;
-	height: 165px;
+
+.desc .list {
+	width: 28%;
 }
 
 }
@@ -76,23 +72,12 @@
 
 .project-wrap{
 	margin-top: 90px;
-	max-width: 85%;
 }
 
-.project-thumb {
-	margin: 30px 0px 0px 0px;
-	width: 225px;
-	height: 165px;
+
+.desc .list {
+	width: 25%;
 }
 
-.project-thumb img {
-	width: 225px;
-	height: 165px;
-}
-
-#project-thumb-wrap {
-	max-width: 240px;
-	text-align: center;
-}
 }
 
