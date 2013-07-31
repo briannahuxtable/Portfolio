@@ -12,7 +12,7 @@ body {
 /* Header area */
 
 #header {
-	height: 90px;
+	height: 70px;
 	margin: auto;
 	float: left;
 	text-align: right;
@@ -21,12 +21,12 @@ body {
 	z-index:2;
 	top:0;
 	width: 100%;
+	/*opacity: .95;*/
 
 }
 
 #header img {
-	width:167px;
-	height:80px;
+	padding-left: 15px;
 	margin: 5px auto; 
 	float: left;
 	border: none;
@@ -44,7 +44,7 @@ body {
 	text-align: center;
 	display: inline-block;
 	list-style-type: none;
-	padding: 30px 10px 10px 10px;
+	padding: 25px 10px 10px 10px;
 	text-decoration: none;
 
 }
@@ -125,7 +125,7 @@ h5{
 
 #project-thumb-wrap {
 	margin: auto;
-	width:80%;
+	width:80%;/*change this*/
 	max-width: 1250px;
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -136,14 +136,11 @@ h5{
 
 .project-thumb {
 	display: inline-block;
-	margin: 0px;
 	position: relative;
-	width:45%;
+	width:45%; /*change this*/
 	max-width: 599px;
-	position: relative;
 	margin: 30px 11px 0px 11px; 
 	/*background-color: #00B9BD;*/
-
 }
 
 .text{
@@ -163,15 +160,22 @@ a{
 	text-decoration: none;
 }
 
-.project-thumb img, .project-thumb a{
+.project-thumb a{
+	width:100%;
+}
+
+.project-thumb img{
 	width:100%;
 }
 
 
 /*About*/
 .about-info img{
-	width:50%;
+	max-width: 830px;
+	max-height: 533px;
+	width:80%;
 	float: center;
+	
 }
 
 .about-info {
@@ -200,6 +204,7 @@ a{
   max-width: 1000px;
   font-weight: 400;
   margin-left: auto;
+  padding-bottom: 40px;
 
 
 }
@@ -210,7 +215,7 @@ a{
 	color: #999999;
 	display: block;
 	text-align: center;
-	padding-bottom: 20px;
+
 
 }
 
@@ -222,7 +227,7 @@ a{
 
 .list {
 
-	padding-left: 25px;
+	padding-left: 10px;
 	float: left;
 }
 
@@ -231,7 +236,7 @@ a{
 
 
 .project-info h2{
-	padding-top: 75px;
+	padding-top: 115px;
 	padding-bottom: 25px;
 	margin-right: auto;
 	margin-left: auto;
@@ -262,6 +267,10 @@ a{
 	max-width: 100%;
 
 }
+/*take away if using jquery*/
+.project-thumb:hover{
+	opacity: .5;
+}
 
 .img-showcase img{
 	width: 100%; /*use max-width:100%; for everything*/
@@ -272,25 +281,26 @@ a{
 }
 
 
-.bottom, .bottom-links{
+.bottom-links{
 	width: 100%;
 	text-decoration: none;
 	margin: 5px auto;
 	text-align: left;
-	padding-bottom: 30px;
 }
 
 .footer-left {
 	float: left;
 	margin: 2em 0 0;
-	padding-left: 20px;
+	padding-left: 30px;
+	padding-bottom: 40px;
 
 }
 
 .footer-right {
 	float: right;
 	margin: 2em 0 0;
-	padding-right: 20px;
+	padding-right: 30px;
+	padding-bottom: 40px;
 }
 
 .footer-right a, .footer-left a{
@@ -304,4 +314,25 @@ a{
 
 .footer-right:hover, .footer-left:hover{
 	opacity: .5;
+}
+
+/*Video*/
+
+.videoWrap{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 10px;
+	height: 0;
+	margin-top: 110px;
+  
+}
+
+.videoWrap iframe{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
 }
