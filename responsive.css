@@ -19,8 +19,19 @@
 }
 
 */
-#info{
-	max-width: 730px;
+.info h2{
+	padding-top: 30px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+}
+
+.project-thumb {
+
+}
+
+
 }
 
 #me {
@@ -29,7 +40,9 @@
 
 @media (max-width: 767px) {
 
-
+#info{
+	max-width: 300px;
+}
 
 #me {
 	padding: 10px;
@@ -40,14 +53,16 @@
 	margin:30px 0 0 0;
 }
 
-.info h2{
-	padding: 10px;
-}
-
-
 .desc .list {
 	width: 28%;
 }
+
+
+
+/*USE THIS TO SEE IF MEDIA QUERY WORKS*/
+/*.footer-right a, .footer-left a{
+	color: blue;
+}*/
 
 }
 
@@ -56,13 +71,13 @@
 @media (max-width: 480px) {
 
 #header {
-	height: 190px;
-	text-align: center;
+	/*height: 190px;
+	text-align: center;*/
 }
-#header img {
+/*#header img {
 	float: none;
 	margin: 5px 0 0 0;
-}
+}*/
 
 #header ul{
 	width: 100%;
@@ -71,13 +86,19 @@
 }
 
 .project-wrap{
-	margin-top: 90px;
+
 }
 
 
+.project-thumb{
+	width:100%;
+	margin:5px 0 0 0;
+}
 .desc .list {
 	width: 25%;
 }
+
+
 
 }
 
