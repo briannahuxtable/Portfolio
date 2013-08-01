@@ -27,12 +27,23 @@
 	max-width: 700px;
 }
 
-.project-thumb {
+.item-img {
+width: 100%;
+}
+
+.videoWrap iframe {
+
+width: 85%;
+height: 85%;
 
 }
 
-
+.videoWrap{
+	padding-bottom: 56.25%;
+	
+  
 }
+} 
 
 #me {
 	padding: 10px;
@@ -59,11 +70,6 @@
 
 
 
-/*USE THIS TO SEE IF MEDIA QUERY WORKS*/
-/*.footer-right a, .footer-left a{
-	color: blue;
-}*/
-
 }
 
 
@@ -85,11 +91,6 @@
 	padding: 10px 0 40px 0;
 }
 
-.project-wrap{
-
-}
-
-
 .project-thumb{
 	width:100%;
 	margin:5px 0 0 0;
@@ -97,7 +98,13 @@
 .desc .list {
 	width: 25%;
 }
+.item-img{
+	margin-top: 20px;
+}
 
+#briannahuxtable h1{
+	font-size: 16px;
+}
 
 
 }
