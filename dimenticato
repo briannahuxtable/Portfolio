@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  
+	
 	<head>
 		<meta charset="UTF-8">
 		<title>Brianna Huxtable</title>
@@ -12,7 +12,7 @@
     	<link href="responsive.css" rel="stylesheet">
 
 
-    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700,300,400' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,300,400' rel='stylesheet' type='text/css'>
 
 	</head>
 
@@ -23,7 +23,7 @@
 
 
 		<header>
-			<div id ="header"><a href="index.html"><img src="images/logo-test.png"/></a>
+			<div id ="header"><a href="index.html"><img src="images/logo-test.png" alt=""/></a>
 				<nav>
 					<ul>
 						<a href="index.html"><li class="active">Work</li></a>
@@ -43,11 +43,13 @@
 
 
 			<div class= "project-img">
-				<img src="images/dimenticato5.png">
+				<img src="images/dimenticato5.png" alt="">
 			</div>
 
-			<h1>Dimenticato</h1>
-			<h4>Lighting Design<h4>
+			<div class = "section 1">
+				<h1>Dimenticato</h1>
+				<h4>Lighting Design<h4>
+			</div>
 
 			<div class="desc">
 
@@ -74,22 +76,33 @@
 
 			</div>
 
-			<div class="project-info">
+			<div class="project-info-dimenticato">
 		      	
-				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat tellus a leo vulputate, vitae posuere diam blandit. Vivamus ut risus ultrices, posuere neque vitae, dignissim diam. Phasellus felis felis, molestie et sem sit amet, feugiat fermentum est. Nulla massa quam, convallis ut nunc ac, gravida elementum velit. Ut sed rhoncus est. Quisque varius ut lacus at posuere. Duis tempor dui vel nibh cursus fringilla. Sed tincidunt ante nec tortor convallis, ac convallis ipsum iaculis. Nullam sed semper dolor. Fusce vitae adipiscing tortor. Duis quis consectetur augue. Suspendisse ornare eget sem a rhoncus. Curabitur quam tortor, varius ut lorem eu, aliquam rhoncus elit. Pellentesque hendrerit vel augue nec varius. Donec congue augue vitae aliquet ornare.</h2>
+				<h2>Dimenticato is an Italian inspired hanging light. The light focuses on the concept of forgotten space such as a ceiling. In modern day a ceiling is neglected by everyday people. Pulling inspiration from history, many Italian churches were built around the idea of painted ceilings and architectural elements to highlight them. Dimenticato hides the light bulb and experiments with the quality in which light could be manipulated by the structural elements. The Dimenticato light is designed specifically with the consumer in mind in that the parts can be easily assembled in a couple steps.</h2>
 
 			</div>
 
 
 
 			<div class= "img-showcase">
-				<img src="images/dimenticato1.png">
+				<div class ="item-img">
+					<img src="images/dimenticato1.png" alt="">
+				</div>
 				<br>
-				<img src="images/dimenticato2.png">
+
+				<div class ="item-img">
+					<img src="images/dimenticato2.png" alt="">
+				</div>
 				<br>
-				<img src="images/dimenticato3.png">
+
+				<div class ="item-img">
+					<img src="images/dimenticato3.png" alt="">
+				</div>
 				<br>
-				<img src="images/dimenticato4.png">
+
+				<div class ="item-img">
+					<img src="images/dimenticato4.png" alt="">
+				</div>
 			</div>
 	
 
@@ -111,6 +124,31 @@
 					</div>
 				</div>
 
+				
+	<div id="footer-wrap">
+  		<div id="footer">
+    
+ 		<div class="line"></div>
+
+    		<div id="briannahuxtable">
+    			<h2>GET IN TOUCH</h2>
+    			<!--<h1>Brianna Huxtable</h1>-->
+      			<br>
+      			<h1><a href="mailto:briannahuxtable@gmail.com" target="_blank">briannahuxtable@gmail.com</a></br></h1>
+      					<!--<a href="resume.pdf" target="_blank">Download Resume</a><br/>-->
+      			<h1>+1 (778) 835 9563</h1>
+ 
+    		</div>
+
+
+    	<div id="footer-links">
+    		<a href="http://linkedin.com/pub/brianna-huxtable/27/58b/849/" target="_blank"><img class="icon" src="images/linkedin.png" alt="LinkedIn" title="LinkedIn"/></a>
+      		<a href="https://twitter.com/briannahuxtable" target="_blank"><img class="icon" src="images/twitter.png" alt="Twitter" title="Twitter"/></a>
+      		<a href="http://www.facebook.com/briannahuxtable" target="_blank"><img class="icon" src="images/facebook.png" alt="Facebook" title="Facebook"/></a>
+    	</div>
+
+ 		</div>
+	</div>
 
 
 
